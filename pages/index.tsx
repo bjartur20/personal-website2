@@ -45,17 +45,32 @@ export default function Home() {
           <div className={styles.grid}>
             <a
               href="https://www.linkedin.com/in/bjartur-%C3%BE-99ab9313b/"
-              className={styles.card}
+              className={styles.imageCard}
             >
-              <h2>Linkedin &rarr;</h2>
+              <Image
+                src="/linkedin-logo.png"
+                width={150}
+                height={150}
+                alt="LinkedIn Icon"
+              />
             </a>
 
-            <a href="https://github.com/bjartur20" className={styles.card}>
-              <h2>GitHub &rarr;</h2>
+            <a href="https://github.com/bjartur20" className={styles.imageCard}>
+              <Image
+                src="/github-logo.png"
+                width={230}
+                height={230}
+                alt="GitHub Icon"
+              />
             </a>
 
-            <a href="mailto:bjartur20@gmail.com" className={styles.card}>
-              <h2>Email &rarr;</h2>
+            <a href="mailto:bjartur20@gmail.com" className={styles.imageCard}>
+              <Image
+                src="/email-icon.png"
+                width={180}
+                height={180}
+                alt="Email Icon"
+              />
             </a>
           </div>
         </div>
